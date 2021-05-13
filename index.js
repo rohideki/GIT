@@ -5,4 +5,4 @@ const app = express();
 app.get('/', (req, res)=>{
 res.send('Oi Mundo')
 })
-listen(3000)
+.listen(3000)
